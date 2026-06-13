@@ -52,6 +52,16 @@ This project aims to predict the presence of heart disease using Machine Learnin
 
 ---
 
+## 🔍 Feature Engineering
+
+The following interaction features were created to improve model performance:
+
+- Age × Cholesterol
+- Blood Pressure × Cholesterol
+- ST Depression × Maximum Heart Rate
+
+---
+
 ## 📈 Results
 
 | Metric | Score |
@@ -69,7 +79,7 @@ The optimized Random Forest model achieved the best overall performance among th
 ```text
 Heart-Disease-Prediction/
 │
-├── finalcodefile.py
+├── heart_disease_prediction.py
 ├── result_images/
 │   ├── Precision-Recall Curve.png
 │   ├── ROC Curve.png
@@ -81,15 +91,47 @@ Heart-Disease-Prediction/
 
 ---
 
-## 🔍 Feature Engineering
+## ⚙️ Installation & Usage
 
-The following interaction features were created to improve model performance:
+Follow these steps to set up and run the project locally:
 
-- Age × Cholesterol
-- Blood Pressure × Cholesterol
-- ST Depression × Maximum Heart Rate
+1. **Clone the repository:**
+   ```bash
+   git clone [https://github.com/jigyasa0712/Heart-Disease-Prediction.git](https://github.com/jigyasa0712/Heart-Disease-Prediction.git)
+   cd Heart-Disease-Prediction
+   ```
 
----
+2. Set up a virtual environment (Optional but recommended):
+
+   Windows:
+   
+    ```bash
+    python -m venv venv
+    .\venv\Scripts\activate
+    ```
+  
+  
+    macOS/Linux:
+     
+     ```bash
+     python3 -m venv venv
+     source venv/bin/activate
+     ```
+
+3. Install the required dependencies:
+ 
+   ```bash
+   pip install -r requirements.txt
+   ```
+
+4. Run the analysis:
+   Execute the core prediction pipeline:
+   
+   ```bash
+   python heart_disease_prediction.py
+   ```
+
+
 
 ## 📉 Key Findings
 
@@ -118,8 +160,8 @@ This work has been **accepted for presentation at the NIT Patna Conference 2026*
 
 **Jigyasa Arora**
 
-- GitHub: https:https://github.com/jigyasa0712/Heart-Disease-Prediction
-- LinkedIn: https:https://www.linkedin.com/in/jigyasa-arora-345b51292/
+- GitHub: https://github.com/jigyasa0712/Heart-Disease-Prediction
+- LinkedIn: https://www.linkedin.com/in/jigyasa-arora-345b51292/
 - Email: jigyasaarora712@gmail.com
 
 ---
