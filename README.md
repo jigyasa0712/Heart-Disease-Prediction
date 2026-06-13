@@ -71,9 +71,9 @@ Heart-Disease-Prediction/
 │
 ├── finalcodefile.py
 ├── result_images/
-│   ├── confusion_matrix.png
-│   ├── roc_curve.png
-│   ├── feature_importance.png
+│   ├── Precision-Recall Curve.png
+│   ├── ROC Curve.png
+│   ├── FeatureImportanceRF.jpeg
 │   └── ...
 ├── README.md
 └── requirements.txt
